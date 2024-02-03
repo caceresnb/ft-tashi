@@ -1,0 +1,976 @@
+
+@media (max-width: 576px) {
+/*****HOME******/
+.homeFoto {
+	display: block;
+	position: relative;
+	width: 100%;
+	height:70%;
+	align-items:center;
+	margin-left: 2%;
+	margin-right: 3%;
+	padding-top: 0%;
+}
+.homeFoto img{
+	width: 28%;
+	height: fit-content;
+	margin-bottom: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+/********BARRAS******/
+.barras .tituloForm{
+	margin-top: 1%;
+}
+.barraPortada {
+	display: block;
+	position: relative;
+	width: 100%;
+	height:100%;
+	align-items:center;
+	padding-left: 2%;
+	padding-top: 10%;
+}
+.barraPortada img{
+	width: 28%;
+	height: 150%;
+	margin-left: 2%;
+	margin-right: 1%;
+}
+/******TALLERES******/
+.talleres {
+	display: block;
+	position: relative;
+	width: 100%;
+	height:100%;
+	align-items:center;
+	padding-left: 1%;
+	padding-top: 10%;
+	padding-bottom: 1%;
+}
+.talleres img{
+	width: 28%;
+	height: 150%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+/******* EL CLUB*****/
+.frente {
+	display: block;
+	position: relative;
+	width:100%;
+	height:100%;
+	align-items:center;
+	padding-left: 2%;
+	margin-right: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+}
+@media (min-width: 576px) and (max-width: 768px)
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	/*********** Productos CSS **********/
+	.card {
+	  display: block;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  border-radius: 5px; 
+	  margin: 1rem;
+	  float: left;
+	  position:relative;
+	}
+	.card-group .productos {
+	  position: relative;
+	  width: 100%;
+	  margin-right: 20%;
+	  margin-bottom: 100px;
+	  background: #FFFFFF;
+	}
+	.card-group .productos .productos-item {
+	  position: relative;
+	  width: 338px;
+	  height: 553px;
+	  margin-bottom: 30px;
+	  margin-left: 10%;
+	  margin-top: 70px;
+	  padding: 10px;
+	  background: #232323;
+	  border: 2px solid #979797;
+	}
+	.productos .productos-img {
+	  position: relative;
+	  overflow: hidden;
+	}
+	.productos .productos-img img {
+	  position: relative;
+	  width: 338px;
+	  height: 398px;
+	  width: 100%;
+	}
+	.productos .productos-text {
+	  position: relative;
+	  padding: 25px 15px 10px 15px;
+	  text-align: center;
+	  background: #FFFFFF;
+	}
+	.productos .productos-text h2 {
+	  font-size: 19px;
+	  margin: 0;
+	  font-size: 19px;
+	  color: #0D0D0D;
+	}
+	.productos .productos-text span {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	  text-decoration:line-through;
+	}
+	.productos .productos-text h4 {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	}
+	.productos .productos-text p{
+	  color: #0D0D0D;
+	  margin: 0;
+	  font-size: 14px;
+	  text-align: right;
+	}
+	.catalogo {
+	  margin-left: 4%;
+	}
+  
+	  .fotos {
+		width: 100%;
+		position: relative;
+		display: block;
+		margin: auto;
+	  }
+	  .fotos .card {
+		width: 50%;
+		margin: auto;
+		display: block;
+		position: relative;
+	  }
+	  .fotos .card .card-title {
+		display: block;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  color: #FFFFFF;
+		  font-family:BodoniXT;
+	  }
+	}
+	@media (min-width: 768px) and (max-width: 992px)  {
+	/*********** Productos CSS **********/
+	.card {
+	  flex-direction: column;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  border-radius: 5px; 
+	  margin: 2rem;
+	  margin-left: 10%;
+	  float: left;
+	  position:relative;
+	}
+	.card-group .productos {
+	  position: relative;
+	  width: 100%;
+	  margin-left: 30%;
+	  margin-bottom: 100px;
+	  background: #FFFFFF;
+	}
+	.card-group .productos .productos-item {
+	  position: relative;
+	  width: 338px;
+	  height: 553px;
+	  margin-bottom: 30px;
+	  margin-left: 10%;
+	  margin-top: 70px;
+	  padding: 10px;
+	  background: #FFFFFF;
+	  border: 2px solid #979797;
+	}
+	.productos .productos-img {
+	  position: relative;
+	  overflow: hidden;
+	}
+	.productos .productos-img img {
+	  position: relative;
+	  width: 338px;
+	  height: 398px;
+	  width: 100%;
+	}
+	.productos .productos-text {
+	  position: relative;
+	  padding: 25px 15px 10px 15px;
+	  text-align: center;
+	  background: #FFFFFF;
+	}
+	.productos .productos-text h2 {
+	  font-size: 19px;
+	  margin: 0;
+	  font-size: 19px;
+	  color: #0D0D0D;
+	}
+	.productos .productos-text span {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	  text-decoration:line-through;
+	}
+	.productos .productos-text h4 {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	}
+	.productos .productos-text p{
+	  color: #0D0D0D;
+	  margin: 0;
+	  font-size: 14px;
+	  text-align: right;
+	}
+	.catalogo {
+	  margin-left: 2%;
+	}
+	  .fotos {
+		width: 100%;
+		position: relative;
+		display: block;
+		margin: auto;
+	  }
+	  .fotos .card {
+		width: 50%;
+		margin: auto;
+	  }
+	  .card-title {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  color: #FFFFFF;
+		  font-family:BodoniXT;
+	  }
+	}
+	@media (min-width: 576px) and (max-width: 768px) {
+	 /*********** Productos CSS **********/
+	.card {
+	  flex-direction: column;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  border-radius: 5px; 
+	  margin: 2rem;
+	  float: left;
+	  position:relative;
+	}
+	.card-group .productos {
+	  position: relative;
+	  width: 100%;
+	  margin-left: 20%;
+	  margin-bottom: 100px;
+	  background: #FFFFFF;
+	}
+	.card-group .productos .productos-item {
+	  position: relative;
+	  width: 338px;
+	  height: 553px;
+	  margin-bottom: 30px;
+	  margin-left: auto;
+	  margin-top: 70px;
+	  padding: 10px;
+	  background: #FFFFFF;
+	  border: 2px solid #979797;
+	}
+	.productos .productos-img {
+	  position: relative;
+	  overflow: hidden;
+	}
+	.productos .productos-img img {
+	  position: relative;
+	  width: 338px;
+	  height: 398px;
+	  width: 100%;
+	}
+	.productos .productos-text {
+	  position: relative;
+	  padding: 25px 15px 10px 15px;
+	  text-align: center;
+	  background: #FFFFFF;
+	}
+	.productos .productos-text h2 {
+	  font-size: 19px;
+	  margin: 0;
+	  font-size: 19px;
+	  color: #0D0D0D;
+	}
+	.productos .productos-text span {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	  text-decoration:line-through;
+	}
+	.productos .productos-text h4 {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	}
+	.productos .productos-text p{
+	  color: #0D0D0D;
+	  margin: 0;
+	  font-size: 14px;
+	  text-align: right;
+	}
+	.catalogo {
+	  margin-left: 4%;
+	}
+	
+	  .fotos {
+		width: 100%;
+		position: relative;
+		display: block;
+		margin: auto;
+	  }
+	  .fotos .card {
+		width: 50%;
+		margin: auto;
+	  }
+	  .card-title {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  color: #FFFFFF;
+		  font-family:BodoniXT;
+	  }
+	}
+	
+	@media (max-width: 576px)  {
+
+	/*********** Productos CSS **********/
+	.card {
+	  flex-direction: column;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  border-radius: 5px; 
+	  margin: 2rem;
+	  float: left;
+	  position:relative;
+	}
+	.card-group .productos {
+	  position: relative;
+	  width: 100%;
+	  margin-left: 2rem;
+	  margin-bottom: 100px;
+	  background: #FFFFFF;
+	}
+	.card-group .productos .productos-item {
+	  position: relative;
+	  width: 338px;
+	  height: 553px;
+	  margin-bottom: 30px;
+	  margin-left: none;
+	  margin-top: 70px;
+	  padding: 10px;
+	  background: #FFFFFF;
+	  border: 2px solid #979797;
+	}
+	.productos .productos-img {
+	  position: relative;
+	  overflow: hidden;
+	}
+	.productos .productos-img img {
+	  position: relative;
+	  width: 338px;
+	  height: 398px;
+	}
+	.productos .productos-text {
+	  position: relative;
+	  padding: 25px 15px 10px 15px;
+	  text-align: center;
+	  background: #FFFFFF;
+	}
+	.productos .productos-text h2 {
+	  font-size: 19px;
+	  margin: 0;
+	  font-size: 19px;
+	  color: #0D0D0D;
+	}
+	.productos .productos-text span {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	  text-decoration:line-through;
+	}
+	.productos .productos-text h4 {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	}
+	.productos .productos-text p{
+	  color: #0D0D0D;
+	  margin: 0;
+	  font-size: 14px;
+	  text-align: right;
+	}
+	.catalogo {
+	  margin-left: 4%;
+	}
+	  .fotos {
+		width: 100%;
+		position: relative;
+		display: block;
+		margin: auto;
+	  }
+	  .fotos .card {
+		width: 50%;
+		margin: auto;
+	  }
+	  .card-title {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  color: #FFFFFF;
+		  font-size: 10em;
+		  font-family:BodoniXT;
+	  }
+	}
+
+/*************** FORM *****************/
+	.seccionTextContacto {
+		text-align: center;
+		width: 50%;
+		margin-left: 25%;
+		margin-top: 5%;
+		margin-right: 25%;
+		margin-bottom: 5%;
+	  }
+	  
+.form {
+	width: 70%;
+	margin-left: 15%;
+  }
+  .tituloForm {
+	display: block;
+	position: relative;
+	background-color: #232323;
+	font-size: 30px;
+	text-align: center;
+	color: #232323;
+	margin: 1.8rem 0;
+	padding-top: 5%;
+	padding-bottom: 3%;
+  }
+  .tituloForm img{
+	width: 15%;
+	padding-top: 5%;
+  }
+  .contactP p{
+		font-size: 20px;
+		text-align: center;
+		color: #AAAAAA;
+		margin: 1.8rem 0;
+  }
+  .eContact p {
+	color:#f33f3f ;
+  }
+  .form-label {
+	  color: #e1dede;
+	  font-size: medium;
+  }
+  .btnForm {
+	background-color: #f33f3f;
+	color: white;
+	padding: 0.6rem;
+	margin-top: -0.5rem;
+	border: none;
+	border-radius: 6px;
+  }
+  .btnForm:hover {
+	animation: shake 500ms ease infinite;
+  }
+.barraPortada {
+	width: 50%;
+	padding-left: 2%;
+}
+/*****HOME******/
+.homeFoto {
+	display: block;
+	position: relative;
+	background-color: #232323;
+	align-items:center;
+	width: 100%;
+	height:70%;
+	align-items:center;
+	margin-left: 2%;
+	margin-right: 3%;
+	padding-top: 0%;
+}
+.homeFoto img{
+	width: 28%;
+	margin-bottom: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+/********BARRAS******/
+.barras .tituloForm{
+	margin-top: 1%;
+}
+.barraPortada {
+	display: block;
+	position: relative;
+	background-color: #232323;
+	width: 100%;
+	height:100%;
+	align-items:center;
+	padding-left: 2%;
+	padding-top: 10%;
+}
+.barraPortada img{
+	width: 28%;
+	height: 150%;
+	margin-left: 2%;
+	margin-right: 1%;
+}
+.opcionesBarra {
+	display: block;
+	position: relative;
+	background-color: #232323;
+	align-items:center;
+	width: 100%;
+	height:100%;
+	align-items:center;
+	padding-left: 2%;
+	padding-top: 10%;
+}
+.opcionesBarra img{
+	width: 28%;
+	margin-left: 2%;
+	margin-right: 1%;
+}
+/******TALLERES******/
+.talleres {
+	display: block;
+	position: relative;
+	background-color: #232323;
+	width: 100%;
+	height:100%;
+	align-items:center;
+	padding-left: 1%;
+	padding-top: 10%;
+	padding-bottom: 1%;
+}
+.talleres img{
+	width: 28%;
+	height: 150%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+/******* EL CLUB*****/
+.frente {
+	display: block;
+	position: relative;
+	background-color: #232323;
+	width:100%;
+	height:100%;
+	padding-left: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+main,
+body {
+	color: #232323;
+	background-color: #232323;
+}
+
+.container .subm {
+	display: none; }
+  
+  .subm {
+	display: flex;
+	flex-flow: column wrap;
+	position: absolute;
+	justify-content: space-evenly; }
+  
+  .subm li {
+	padding-top: 5px; }
+  
+   .container ul li:hover .subm {
+	display: block;
+	position: absolute;
+	background-color: #e7e9eb;
+	z-index: 10;
+	border-style: groove; }
+/*******PRODUCTOS*******/
+/*********** Productos CSS **********/
+.card {
+	flex-direction: column;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 5px; 
+	margin: 3rem;
+	float: left;
+	position:relative;
+  }
+  .card-group .productos {
+	position: relative;
+	width: 100%;
+	margin-left: 25%;
+	margin-bottom: 100px;
+	background: #FFFFFF;
+  }
+  .card-group .productos .productos-item {
+	position: relative;
+	width: 338px;
+	height: 553px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-top: 70px;
+	padding: 10px;
+	background: #FFFFFF;
+	border: 2px solid #979797;
+  }
+  .productos .productos-img {
+	position: relative;
+	overflow: hidden;
+  }
+  .productos .productos-img img {
+	position: relative;
+	width: 338px;
+	height: 398px;
+	width: 100%;
+  }
+  .productos .productos-text {
+	position: relative;
+	padding: 25px 15px 10px 15px;
+	text-align: center;
+	background: #FFFFFF;
+  }
+  .productos .productos-text h2 {
+	font-size: 19px;
+	margin: 0;
+	font-size: 19px;
+	color: #0D0D0D;
+  }
+  .productos .productos-text span {
+	color: #979797;
+	margin: 0;
+	font-size: 19px;
+	text-decoration:line-through;
+  }
+  .productos .productos-text h4 {
+	color: #979797;
+	margin: 0;
+	font-size: 19px;
+  }
+  .productos .productos-text p{
+	color: #0D0D0D;
+	margin: 0;
+	font-size: 14px;
+	text-align: right;
+  }
+  .catalogo {
+	margin-left: 4%;
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+	/*********** Productos CSS **********/
+	.card {
+	  flex-direction: column;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  border-radius: 5px; 
+	  margin: 3rem;
+	  float: left;
+	  position:relative;
+	}
+	.card-group .productos {
+	  position: relative;
+	  width: 100%;
+	  margin-right: 20%;
+	  margin-bottom: 100px;
+	  background: #FFFFFF;
+	}
+	.card-group .productos .productos-item {
+	  position: relative;
+	  width: 338px;
+	  height: 553px;
+	  margin-bottom: 30px;
+	  margin-left: 10%;
+	  margin-top: 70px;
+	  padding: 10px;
+	  background: #FFFFFF;
+	  border: 2px solid #979797;
+	}
+	.productos .productos-img {
+	  position: relative;
+	  overflow: hidden;
+	}
+	.productos .productos-img img {
+	  position: relative;
+	  width: 338px;
+	  height: 398px;
+	  width: 100%;
+	}
+	.productos .productos-text {
+	  position: relative;
+	  padding: 25px 15px 10px 15px;
+	  text-align: center;
+	  background: #FFFFFF;
+	}
+	.productos .productos-text h2 {
+	  font-size: 19px;
+	  margin: 0;
+	  font-size: 19px;
+	  color: #0D0D0D;
+	}
+	.productos .productos-text span {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	  text-decoration:line-through;
+	}
+	.productos .productos-text h4 {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	}
+	.productos .productos-text p{
+	  color: #0D0D0D;
+	  margin: 0;
+	  font-size: 14px;
+	  text-align: right;
+	}
+	.catalogo {
+	  margin-left: 4%;
+	}  
+	@media (min-width: 768px) and (max-width: 992px)  {
+  
+	/*********** Productos CSS **********/
+	.card {
+	  flex-direction: column;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  border-radius: 5px; 
+	  margin: 2rem;
+	  margin-left: 10%;
+	  float: left;
+	  position:relative;
+	}
+	.card-group .productos {
+	  position: relative;
+	  width: 100%;
+	  margin-left: 30%;
+	  margin-bottom: 100px;
+	  background: #FFFFFF;
+	}
+	.card-group .productos .productos-item {
+	  position: relative;
+	  width: 338px;
+	  height: 553px;
+	  margin-bottom: 30px;
+	  margin-left: 10%;
+	  margin-top: 70px;
+	  padding: 10px;
+	  background: #FFFFFF;
+	  border: 2px solid #979797;
+	}
+	.productos .productos-img {
+	  position: relative;
+	  overflow: hidden;
+	}
+	.productos .productos-img img {
+	  position: relative;
+	  width: 338px;
+	  height: 398px;
+	  width: 100%;
+	}
+	.productos .productos-text {
+	  position: relative;
+	  padding: 25px 15px 10px 15px;
+	  text-align: center;
+	  background: #FFFFFF;
+	}
+	.productos .productos-text h2 {
+	  font-size: 19px;
+	  margin: 0;
+	  font-size: 19px;
+	  color: #0D0D0D;
+	}
+	.productos .productos-text span {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	  text-decoration:line-through;
+	}
+	.productos .productos-text h4 {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	}
+	.productos .productos-text p{
+	  color: #0D0D0D;
+	  margin: 0;
+	  font-size: 14px;
+	  text-align: right;
+	}
+	.catalogo {
+	  margin-left: 2%;
+	}
+	@media (min-width: 576px) and (max-width: 768px) {
+	  .margin-footer{
+		flex-direction: column;
+	  }
+	  .footer__responsive{
+		font-size: large;
+	  }
+	 /*********** Productos CSS **********/
+	.card {
+	  flex-direction: column;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  border-radius: 5px; 
+	  margin: 2rem;
+	  float: left;
+	  position:relative;
+	}
+	.card-group .productos {
+	  position: relative;
+	  width: 100%;
+	  margin-left: 20%;
+	  margin-bottom: 100px;
+	  background: #FFFFFF;
+	}
+	.card-group .productos .productos-item {
+	  position: relative;
+	  width: 338px;
+	  height: 553px;
+	  margin-bottom: 30px;
+	  margin-left: auto;
+	  margin-top: 70px;
+	  padding: 10px;
+	  background: #FFFFFF;
+	  border: 2px solid #979797;
+	}
+	.productos .productos-img {
+	  position: relative;
+	  overflow: hidden;
+	}
+	.productos .productos-img img {
+	  position: relative;
+	  width: 338px;
+	  height: 398px;
+	  width: 100%;
+	}
+	.productos .productos-text {
+	  position: relative;
+	  padding: 25px 15px 10px 15px;
+	  text-align: center;
+	  background: #FFFFFF;
+	}
+	.productos .productos-text h2 {
+	  font-size: 19px;
+	  margin: 0;
+	  font-size: 19px;
+	  color: #0D0D0D;
+	}
+	.productos .productos-text span {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	  text-decoration:line-through;
+	}
+	.productos .productos-text h4 {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	}
+	.productos .productos-text p{
+	  color: #0D0D0D;
+	  margin: 0;
+	  font-size: 14px;
+	  text-align: right;
+	}
+	.catalogo {
+	  margin-left: 4%;
+	}
+	@media (max-width: 576px)  {
+	  .navbar-expand-sm .navbar-nav .nav-link {
+		margin: 2px;
+	  }
+	  .header-mobile {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		align-items: baseline;
+		align-content: center;
+	  margin-left: 13rem; }
+	
+	  .margin-footer{
+		margin-left: 4rem;
+	  }
+	/*********** Productos CSS **********/
+	.card {
+	  flex-direction: column;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  border-radius: 5px; 
+	  margin: 2rem;
+	  float: left;
+	  position:relative;
+	}
+	.card-group .productos {
+	  position: relative;
+	  width: 100%;
+	  margin-left: 2rem;
+	  margin-bottom: 100px;
+	  background: #FFFFFF;
+	}
+	.card-group .productos .productos-item {
+	  position: relative;
+	  width: 338px;
+	  height: 553px;
+	  margin-bottom: 30px;
+	  margin-left: none;
+	  margin-top: 70px;
+	  padding: 10px;
+	  background: #FFFFFF;
+	  border: 2px solid #979797;
+	}
+	.productos .productos-img {
+	  position: relative;
+	  overflow: hidden;
+	}
+	.productos .productos-img img {
+	  position: relative;
+	  width: 338px;
+	  height: 398px;
+	}
+	.productos .productos-text {
+	  position: relative;
+	  padding: 25px 15px 10px 15px;
+	  text-align: center;
+	  background: #FFFFFF;
+	}
+	.productos .productos-text h2 {
+	  font-size: 19px;
+	  margin: 0;
+	  font-size: 19px;
+	  color: #0D0D0D;
+	}
+	.productos .productos-text span {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	  text-decoration:line-through;
+	}
+	.productos .productos-text h4 {
+	  color: #979797;
+	  margin: 0;
+	  font-size: 19px;
+	}
+	.productos .productos-text p{
+	  color: #0D0D0D;
+	  margin: 0;
+	  font-size: 14px;
+	  text-align: right;
+	}
+	.catalogo {
+	  margin-left: 4%;
+	}
+	  
